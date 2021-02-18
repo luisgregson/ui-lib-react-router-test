@@ -1,9 +1,11 @@
+import { Pane, Heading, Paragraph } from 'evergreen-ui'
+
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-      <p>This is the homepage.</p>
-    </div>
+    <Pane display="flex" flexDirection="column">
+      <Heading flex={1} alignSelf="center" size={800} marginBottom={8}>Home</Heading>
+      <Paragraph flex={1} alignSelf="center">This is the homepage.</Paragraph>
+    </Pane>
   )
 }
 
