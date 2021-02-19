@@ -11,13 +11,13 @@ const App = () => {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
+        <nav className="bg-gradient-to-b from-green-300 to-green-100">
+          <ul className="flex py-3 justify-around">
+            <li className="flex-initial flex justify-center bg-gray-900 text-white rounded-md">
+              <Link className="py-1 px-3" to="/">Home</Link>
             </li>
-            <li>
-              <Link to="/about">About</Link>
+            <li className="flex-initial flex justify-center bg-gray-900 text-white rounded-md">
+              <Link className="py-1 px-3" to="/about">About</Link>
             </li>
           </ul>
         </nav>
